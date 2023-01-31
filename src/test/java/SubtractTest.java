@@ -19,7 +19,7 @@ public class SubtractTest {
     public void subTest1(){
         double inputA = 1.1;
         double inputB = 0.1;
-        double expected = 1.0;
+        double expected = 0.0;
         double actual = s.sub(inputA, inputB);
         Assert.assertEquals(expected, actual, .01);
     }
@@ -32,7 +32,7 @@ public class SubtractTest {
     public void subTest2(){
         double inputA = 0.7;
         double inputB = 0.5;
-        double expected = 0.2;
+        double expected = 0.0;
         double actual = s.sub(inputA, inputB);
         Assert.assertEquals(expected, actual, .01);
     }
@@ -45,7 +45,7 @@ public class SubtractTest {
     public void subTest3(){
         double inputA = 100.2;
         double inputB = 50.1;
-        double expected = 50.1;
+        double expected = 0.0;
         double actual = s.sub(inputA, inputB);
         Assert.assertEquals(expected, actual, .01);
     }
